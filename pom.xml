@@ -65,10 +65,10 @@
         <dependency.osgicore.version>4.3.1</dependency.osgicore.version>
         <dependency.osgicomp.version>4.3.1</dependency.osgicomp.version>
         <dependency.base.version>1.5.0</dependency.base.version>
-        <dependency.bndlib.version>2.3.0</dependency.bndlib.version>
+        <dependency.bndlib.version>4.1.0</dependency.bndlib.version>
         <dependency.obr.version>1.0.2</dependency.obr.version>
         <dependency.paxexam.version>3.5.0</dependency.paxexam.version>
-        <dependency.swissbox.version>1.8.3</dependency.swissbox.version>
+        <dependency.swissbox.version>1.8.4-SNAPSHOT</dependency.swissbox.version>
 
         <!-- higher versions of logback import slf4j 1.7 -->
         <dependency.slf4j.version>1.6.6</dependency.slf4j.version>
@@ -222,7 +222,7 @@
 
             <dependency>
                 <groupId>biz.aQute.bnd</groupId>
-                <artifactId>bndlib</artifactId>
+                <artifactId>biz.aQute.bndlib</artifactId>
                 <version>${dependency.bndlib.version}</version>
             </dependency>
 
